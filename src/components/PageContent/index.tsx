@@ -6,9 +6,6 @@ type PageContent = ComponentProps<'section'>;
 
 export function PageContent({ className, ...props }: PageContent) {
   return (
-    <section
-      className={cnames('container mx-auto pb-20', className)}
-      {...props}
-    />
+    <section className={cnames('container mx-auto', className)} {...props} />
   );
 }

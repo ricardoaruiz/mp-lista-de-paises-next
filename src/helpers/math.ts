@@ -1,6 +1,5 @@
-const numberFormatter = new Intl.NumberFormat('pt-BR', {
+const numberFormatter = new Intl.NumberFormat('en', {
   notation: 'compact',
-  compactDisplay: 'short',
   maximumFractionDigits: 1
 });
 
